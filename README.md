@@ -2,76 +2,23 @@
 Building AI course project
 # Project Title
 
-Final project for the Building AI course
+AI powered sustainability (ESG) assessment for the Real Estate industry, REthink.AI
 
 ## Summary
 
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
-
+Artificial Intelligence powered sustainability assessment will revolutionize how ESG analysis is performed in the real estate industry. An AI enhanced sustainability assessment process is able to capture significantly more information with a higher accuracy and less human interference, and with more prudent cost and time efficiency.
 
 ## Background
 
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
-
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
-
+The cost and time required in the real estate industry to obtain sustainability certifications varies globally. However, it is universally expensive and time consuming. The LEED ceritificate in the US costs in total USD 55,000 - 130,000 and the DGNB certificate in Europe costs between EUR 65,000 and 185,000. The time required to obtain ESG ceritificates is approximately 3 months in the US and 2-6 months in Europe. Ironically, rather than advancing sustainability, the cost and long time to perform these programs can have the unintended effect of actually discouraging more widespread use of sustainability assessments in the real estate industry. Substituting the manual assessment process with machine learning tools can dramatically decrease the cost and time of Real Estate sustainability assessments, including ESA (Environmental Site Assessments) as an example in commercial real estate mortage lending process, all while improving the accuracy of the assessment process. Real estate developers and investors allocating their investments in a portfolio of properties are able to optimize their property holdings in accordance to the global sustainability benchmarks.
 
 ## How is it used?
 
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
-
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
-
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
-
-This is how you create code examples:
-```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
-
-   totPop = sum(pop)
-   totFish = sum(fishers)
-
-   # write your solution here
-
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
-
-main()
-```
-
+REthink.AI can be used by appraisal consultants, commercial real estate credit institutions, insurance companies, sustainability consultants, ESG investors and home buyers conserned about sustainability issues. Real estate developers are able to use REthink.AI analysis as certified assessments to apply for credit and for marketing purposes. REthink.AI enables users to do sustainability and environmental assessments in real time on commercial real estate and multifamily buildings. All properties are given individual sustainability rankings in comparison to the Global Real Estate Sustainability Benchmark and in relation to local and regional properties in the same sub-sector.
 
 ## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+REthink.AI uses all local and federal governmental documents and correspondency, all property related documents published by the developer(s), property and company related financial documents and records. Optical character recognition (OCR) is used to automatically read through data from all necessary documents.
 
-## Challenges
-
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
-
-## What next?
-
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
-
-
-## Acknowledgments
-
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+Regression analysis is used for sustainability benchmark optimization. Cluster analysis is used for risk analytics purposes to inform the user of their risk exposures.
+Property utility efficiency data is processed by the REthink.AI and compared to other similar properties through the nearest neighbour process. Data is processed by neural network and reported either in standardized model or customized upon client needs.
